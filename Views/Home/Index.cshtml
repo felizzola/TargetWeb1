@@ -1,0 +1,80 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<link rel="stylesheet" href="~/css/styles.css" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Target</title>
+
+    <!-- FONT AWSOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+
+    <!--GOOGLE FONT OSWALD-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+
+    <!--CUSTOM CSS-->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="favicon.png">
+
+</head>
+<body>
+
+
+    <!--NAV MENU TRADICIONAL-->
+    <div class="container">
+        <nav class="nav-main">
+            <img src="img/logotarget.png" alt="TARGET LOGO" class="nav-brand">
+
+            <ul class="nav-menu">
+                <li>
+                    <img src="img/mercadoLibre_logo.webp" alt="MeLi Logo" class="logoMeli">
+                </li>
+                <li>
+
+                    <form action="buscar_producto.php" method="GET" class="form_search">
+                        <input type="text" name="busqueda" id="busqueda" placeholder="Buscar producto..." class="input_buscador">
+                        <button type="submit" class="btn_buscar">  <i class="fas fa-search"></i></button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+
+
+        <!--LINEA NAVBAR-->
+        <hr>
+
+        <!-- PORTADA -->
+        <header class="showcase" id="showcase">
+            <h1>PRECIOS SUGERIDOS</h1>
+            <h1> PARA MERCADO LIBRE</h1>
+            <h1>CONSULTAR PRODUCTO</h1>
+            <a href="" class="btn"> VER MÁS <i class="fas fa-angle-double-right"></i></a>
+        </header>
+
+        <!--SOCIAL-->
+        <section class="social" id="social">
+            <p>¡Seguinos!</p>
+            <div class="links">
+                <a href="">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </section>
+    </div>
+
+
+    <!--SCROLL REVEAL-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--CUSTOM JS-->
+    <script src="main.js"></script>
+</body>
