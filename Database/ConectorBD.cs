@@ -9,10 +9,10 @@ namespace TargetWeb1.Database
 {
     public class ConectorBD
     {
-        public static string servidor = "sistemastarget.myddns.me";
+        public static string servidor = "";
         public static string port = "3306";
         public static string usuario = "root";
-        public static string pswd = "riachuelo";
+        public static string pswd = "";
         public static string MYSQLTIMEOUT = "300";
         //public static string DATABASE = "sistemastarget";
         public static string DATABASE = "sistemastargettest";
